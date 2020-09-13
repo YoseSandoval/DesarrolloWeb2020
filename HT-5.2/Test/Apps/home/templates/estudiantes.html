@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+
+<div id="contact-us" class="block-28 space-between-blocks border-top border-bottom">
+    <div class="container">
+      <div class="row h-100">
+          <form onsubmit="submitContactForm(event)" class="contact-form text-center">
+            <div class="contact-form__header mb-5">
+              <h6 class="contact-form__title mb-3">Estudiantes</h6>
+              <p class="contact-form__paragraph mb-0 mx-auto">
+              </p>
+            </div>
+            <input type="text" class="contact-form__input" placeholder="Estudiante">
+            <input type="text" class="contact-form__input" placeholder="Dirección">
+            <input type="text" class="contact-form__input" placeholder="Carnet">
+            <button class="btn btn-primary w-50 ">AGREGAR</button> 
+            <button class="btn btn-secondary w-40 ">Ver listado</button> 
+          </form>
+      </div>
+    </div>
+  </div>
+  
+{% endblock %}
+
